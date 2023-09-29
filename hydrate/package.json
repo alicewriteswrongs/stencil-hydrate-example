@@ -1,0 +1,6 @@
+{
+  "name": "hydrate-example/hydrate",
+  "description": "HydrateExample component hydration app.",
+  "main": "index.js",
+  "types": "index.d.ts"
+}
