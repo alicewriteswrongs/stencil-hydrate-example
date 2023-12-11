@@ -1,4 +1,4 @@
-# my-component
+# cmp-b
 
 
 
@@ -7,15 +7,15 @@
 
 ## Dependencies
 
-### Depends on
+### Used by
 
-- [cmp-b](../cmp-b)
+ - [my-component](../my-component)
 
 ### Graph
 ```mermaid
 graph TD;
   my-component --> cmp-b
-  style my-component fill:#f9f,stroke:#333,stroke-width:4px
+  style cmp-b fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
 ----------------------------------------------
