@@ -14,6 +14,8 @@ app.get('/', async (req, res) => {
   res.send(renderedHTML.html)
 })
 
+app.use(express.static('dist'))
+
 app.listen(port, () => {
   console.log('example hydrate app! 🚀');
   console.log('rendering template:\n');
